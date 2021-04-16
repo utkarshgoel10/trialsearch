@@ -1,113 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+nav{
 
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
-}
 
-/*h1{
-    text-align: center;
-    color: #000;
-    padding-top: 10%;
-
-    
-    letter-spacing: 2px;
-
-}*/
-
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-  
-}
-
-.searchTerm {
-  width: 100%;
-  border: 3px solid #e32636;
-  border-right: none;
-  padding: 5px;
-  height: 36px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: #e32636;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid #e32636;
-  background: #e32636;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-/*Resize the wrap to make responsive!*/
-.wrap{
-  width: 35%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  background: rgba(0, 0, 0,0.4);padding: 8px;
+background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 
 
-
-.wrap:hover{
-	background: rgba(0, 0, 0,0.6);
-	-webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-
-.cover{
-	background: url(cover.jpg) no-repeat center;
-	background-size: cover;
-	width: 100%;
-	height: 100vh;
-
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-	.wrap{
-		width: 64%;
-	}
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-	.wrap{
-		width: 65%;
-	}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-	.wrap{
-		width: 65%;
-	}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-	.wrap{
-		width: 65%;
-	}
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-	.wrap{
-		width: 35%;
-	}
+.und:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.65em;
+    opacity: 0.6;
+    transition: linear;
 }
